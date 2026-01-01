@@ -1,0 +1,32 @@
+#noteFolder{
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='black'><path d='M7 10l5-5 5 5H7zm0 4h10l-5 5-5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 20px;
+}
+aside{
+    width: 350px;
+}
+.card, .card-body{
+    position: relative;
+}
+.card-body{
+    padding: 15px;
+}
+.card-body img{
+    height: 150px;
+    object-fit: cover;
+}
+.note-actions{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+}
+.note-actions i{
+    cursor: pointer;
+}
+.note-actions i:hover{
+    color: #0d6efd;
+    transition: 0.3 ease-in-out;
+}
